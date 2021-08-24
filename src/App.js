@@ -1,9 +1,10 @@
 import React from 'react';
+import Portfolio from './components/portfolio/Portfolio';
 
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <Portfolio />
     </>
   );
 }
