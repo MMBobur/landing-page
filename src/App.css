@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+.teampart{
+  padding: 70px;
+  border: 2px solid red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.teamtext{
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(27, 16, 16);
+  margin-left: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lorem{
+  margin-left: 60px;
+  margin-top: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bordertag{
+  border-bottom: 2px solid red;
+  width: 160px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.nextdiv{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.one{
+  width: 270px;
+  height: 400px;
+  background-color: gray;
+  text-align: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.second{
+  margin-left: 60px;
+  
+  width: 100%;
+
+}
+.text1{
+  font-size: 35px;
+  color: red;
+  
+}
+.links{
+  width: 47%;
+  margin-top: 20px;
+}
+.links a{
+  text-decoration: none;
+  color: rgb(29, 34, 34);
+  font-family: cursive;
+  
+}
+.links a:hover{
+  color: rebeccapurple;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+.squares{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 50px;
+  position: absolute;
+
 }
 
-.App-link {
-  color: #61dafb;
+.hoversq{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 50px;
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sq101{
+  width: 170px;
+  height: 155px;
+  background-color: cyan;
+}
+.sq102{
+  width: 170px;
+  height: 155px;
+  background-color: cyan;
+}
+.sq103{
+  width: 170px;
+  height: 155px;
+  background-color: cyan;
+}
+.sq104{
+  width: 170px;
+  height: 155px;
+  background-color: cyan;
+}
+.sq12{
+  text-align: center;
+  font-weight: bold;
+  color: white  ;
+  width: 170px;
+  height: 30px;
+  margin-top: 124px;
+  background-color: rgb(18, 22, 22);
+  
+}
+.sq123{
+  text-align: center;
+  font-weight: bold;
+  color: white  ;
+  width: 170px;
+  height: 30px;
+  margin-top: 124px;
+  background-color: rgb(18, 22, 22);
+ 
+}
+.sq124{
+  text-align: center;
+  font-weight: bold;
+  color: white  ;
+  width: 170px;
+  height: 30px;
+  margin-top: 124px;
+  background-color: rgb(18, 22, 22);
+  
+}
+.sq125{
+  text-align: center;
+  font-weight: bold;
+  color: white  ;
+  width: 170px;
+  height: 30px;
+  margin-top: 124px;
+  background-color: rgb(18, 22, 22);
+  
+}
+
+.poabs{
+  position: relative;
+}
+[class*='sq12']:hover{
+  cursor: pointer;
+
+}
+[class*='sq10']{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
